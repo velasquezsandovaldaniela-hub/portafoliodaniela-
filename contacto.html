@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ponte en contacto con nosotros.">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-page">
+
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navegación principal">
+            <button class="menu-toggle" aria-label="Abrir menú"
+                    aria-expanded="false" aria-controls="nav-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
+                <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-main">
+        <section class="contact-background" aria-label="Fondo floral">
+        </section>
+
+        <section class="contact-panel">
+            <div class="contact-form-container">
+                <form id="contact-form" class="contact-form">
+
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder=" "
+                            autocomplete="name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder=" "
+                            autocomplete="email"
+                            required
+                        >
+                    </div>
+
+                    <button type="submit" class="submit-button">
+                        Enviar
+                    </button>
+
+                    <p id="form-message" class="form-message"
+                       role="status" aria-live="polite"></p>
+
+                </form>
+            </div>
+
+            <div class="social-container">
+                <h1>CONTÁCTENOS</h1>
+
+                <div class="social-icons">
+
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/"
+                       target="_blank" rel="noopener noreferrer"
+                       aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <rect x="3" y="3" width="18" height="18"
+                                  rx="5" fill="none" stroke="currentColor"
+                                  stroke-width="1.8"/>
+                            <circle cx="12" cy="12" r="4"
+                                    fill="none" stroke="currentColor"
+                                    stroke-width="1.8"/>
+                            <circle cx="17.5" cy="6.8" r="1.1"
+                                    fill="currentColor"/>
+                        </svg>
+                    </a>
+
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/"
+                       target="_blank" rel="noopener noreferrer"
+                       aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M20.2 11.8a8.2 8.2 0 0 1-12.1 7.1L3 20l1.2-4.9a8.2 8.2 0 1 1 16-3.3Z"
+                                  fill="none" stroke="currentColor"
+                                  stroke-width="1.7" stroke-linejoin="round"/>
+                            <path d="M9 8.1c.3-.4.6-.3.8-.1l1 1.7c.2.3 0 .6-.3.9l-.5.5c.6 1.2 1.5 2 2.7 2.6l.6-.7c.2-.3.5-.4.8-.2l1.6.8c.4.2.4.5.3.8-.3.9-1.2 1.5-2.2 1.4-2.9-.3-6.5-3.9-6.7-6.7-.1-.5.7-1.1 1.9-1Z"
+                                  fill="currentColor"/>
+                        </svg>
+                    </a>
+
+                    <!-- Twitter / X -->
+                    <a href="https://x.com/"
+                       target="_blank" rel="noopener noreferrer"
+                       aria-label="Twitter X">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 3h4.8L20 21h-4.8L4 3Zm0 18L20 3M8 3l12 18"
+                                  fill="none" stroke="currentColor"
+                                  stroke-width="1.5" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+
+                    <!-- Telegram -->
+                    <a href="https://t.me/"
+                       target="_blank" rel="noopener noreferrer"
+                       aria-label="Telegram">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="m2 11 19-8-4 19-6-6-4 3 1-6 13-10-16 8Z"
+                                  fill="none" stroke="currentColor"
+                                  stroke-width="1.4" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
